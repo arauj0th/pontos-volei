@@ -44,7 +44,6 @@ body {
     text-align: center;
     width: 55px;
     margin-right: 5px;
-    
 }
 
 .linha {
@@ -70,20 +69,7 @@ button {
 }
 
 button:hover {
-    background-color: white; /* Cor de fundo ao passar o mouse */
-}
-
-button {
-    margin: 5px;
-    padding: 10px 15px;
-    background-color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: white;
+    background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
 }
 
 span {
@@ -91,11 +77,10 @@ span {
     margin-left: 10px; /* Espaçamento entre o botão e a contagem de pontos */
 }
 
-
 .foto1 {
-    height:133px;
+    height: 133px;
     border-radius: 6%;
-    text-align:center;
+    text-align: center;
     width: 200px;
 }
 
