@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placar Vôlei</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+    <div class="tela">
+        <div class="times"> <!-- Div pai para as divs "time" -->
+            <div class="time">
+                <img class="foto" src="voleia.png" alt="Time A"> 
+                <p class="borda">Time A</p>   
+                <button id="incrementarA">PONTOS</button>
+                <span id="pontosA">0</span> 
+            </div>
+            
+            <div class="linha"></div> <!-- Linha vertical -->
+
+            <div class="time">
+                <img class="foto" src="voleib.png" alt="Time B">
+                <p class="borda">Time B</p>
+                <button id="incrementarB">PONTOS</button>
+                <span id="pontosB">0</span>
+                
+            </div>
+          
+        </div>
+
+        <!-- Cronômetro dentro da tela -->
+        <div class="cronometro">
+            <h2 id="tempo">00:00</h2>                    
+            <button id="iniciar">Iniciar</button>
+            <button id="parar">Parar</button>
+            <button id="reiniciar">Reiniciar</button>            
+        </div>
+       
+        <div class="tela">
+            <img class= "foto1" src="quadra.png">  
+        </div>
+        
+       
+       
+        
+    </div>
+
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>

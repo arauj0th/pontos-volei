@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    height: 100vh; /* Faz o body ocupar toda a altura da viewport */
+    margin: 0; /* Remove margens padrão do body */
+    flex-direction: column; /* Alinha a tela e o cronômetro verticalmente */
+}
+
+.tela {
+    background-color: #1AC3C3;
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: center; /* Centraliza os itens dentro da div "tela" */
+    width: 400px;
+    margin: 20px auto; /* Centraliza horizontalmente */
+    padding: 20px;
+    overflow: hidden;
+}
+
+.times {
+    display: flex; /* Permite que as divs "time" e a linha sejam alinhadas horizontalmente */
+    align-items: center; /* Alinha verticalmente os itens dentro da div "times" */
+}
+
+.time {
+    display: flex;
+    flex-direction: column; /* Alinha a imagem e o texto verticalmente */
+    align-items: center; /* Centraliza os itens dentro da div "time" */
+}
+
+.borda {
+    background-color: white;
+    height: 33px;
+    width: 66px;
+    border-radius: 33%;
+    text-align: center;
+    padding-top: 11px;
+}
+
+.foto {
+    height: 66px;
+    border-radius: 50%;
+    text-align: center;
+    width: 55px;
+}
+
+.linha {
+    width: 1px; /* Largura da linha */
+    height: 250px; /* Altura da linha */
+    background-color: #FFFFFF; /* Cor da linha */
+    margin: 0 20px; /* Espaçamento horizontal */
+}
+
+.cronometro {
+    text-align: center; /* Centraliza o texto do cronômetro */
+    margin-top: 20px; /* Espaçamento acima do cronômetro */
+    font-size: 1em; /* Tamanho padrão do texto */
+}
+
+button {
+    margin: 5px; /* Espaçamento entre os botões */
+    padding: 10px 15px; /* Tamanho dos botões */
+    background-color: white; /* Cor de fundo dos botões */
+    border: none; /* Remove bordas padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+button:hover {
+    background-color: white; /* Cor de fundo ao passar o mouse */
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
+span {
+    font-size: 1.5em; /* Aumenta o tamanho da fonte para os pontos */
+    margin-left: 10px; /* Espaçamento entre o botão e a contagem de pontos */
+}
+
+.foto1 {
+    height:133px;
+    border-radius: 6%;
+    text-align:center;
+    width: 200px;
+}
