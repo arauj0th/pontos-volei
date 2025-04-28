@@ -15,6 +15,7 @@ body {
     margin: 20px auto; /* Centraliza horizontalmente */
     padding: 20px;
     overflow: hidden;
+    border: black 2px solid;
 }
 
 .times {
@@ -42,6 +43,8 @@ body {
     border-radius: 50%;
     text-align: center;
     width: 55px;
+    margin-right: 5px;
+    
 }
 
 .linha {
@@ -88,8 +91,14 @@ span {
     margin-left: 10px; /* Espaçamento entre o botão e a contagem de pontos */
 }
 
+
 .foto1 {
     height:133px;
+    border-radius: 6%;
+    text-align:center;
+    width: 200px;
+}
+
     border-radius: 6%;
     text-align:center;
     width: 200px;
